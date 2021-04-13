@@ -1,0 +1,118 @@
+@font-face {
+    font-family: KumbhSans;
+    src: url(/KumbhSans-Regular.ttf);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(82, 148, 185, 0.418);
+    position:fixed; 
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    font-family:KumbhSans;
+    font-size: 18px;  
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 400px;
+    background-color:white;
+    box-shadow: 10px 10px 40px 6px rgba(0, 0, 0,0.3);
+    border-radius: 25px;
+}
+
+.imageHeader{
+    height: 40%;
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+    background-size: cover; 
+    background-image: url(/images/bg-pattern-card.svg);
+}
+
+.profile-picure{
+    display: flex;
+    justify-content: center;
+    margin-top: -13%;
+    vertical-align: -webkit-baseline-middle;
+}
+.profile-picure img{
+    border-radius: 50%;
+    border:10px solid;
+    border-color: white;
+    
+}
+
+.profileInfo{
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.personalInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: 6%;
+}
+
+.personalInfo .name{
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+    
+}
+.personalInfo .age{
+    margin-left: 10px;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+
+.city{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-weight: 400;
+    font-size: 14px;
+    color: hsl(227, 10%, 46%);
+}
+hr{
+    display: flex;
+    flex-direction: row;
+    border-width: 0.01em;
+    background-color: hsl(0, 0%, 59%);
+    width: 98%;   
+}
+
+.stats{
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-bottom: 5%;
+}
+
+.item-stats{
+    display: flex;
+    flex-direction: column;
+}
+
+.item-stats .number{
+    color:hsl(229, 23%, 23%);
+    text-align: center;  
+    font-weight: 700;
+}
+
+.item-stats .variable{
+    text-align: center; 
+    font-size: 11px;
+    margin-top: 10px;
+    color:hsl(227, 10%, 46%);
+}
